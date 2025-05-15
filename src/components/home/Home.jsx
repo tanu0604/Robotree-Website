@@ -115,38 +115,43 @@ const Home = () => {
         className="hover:scale-105 transition-transform duration-500"
       >
         <About />
-      </div>    
-       <div
-        data-aos="fade-right"
-        className="hover:scale-105 transition-transform duration-500"
-      >
-        <Service />
       </div>
       <div
         data-aos="fade-right"
         className="hover:scale-105 transition-transform duration-500"
       >
-        <Achievement />
+        <Service />
       </div>
+
+      <div
+        data-aos="fade-right"
+        className="hover:scale-105 transition-transform duration-500"
+      >
+        <Achievement />
+      </div> 
+
       <div
         data-aos="fade-right"
         className="hover:scale-105 transition-transform duration-500"
       >
         <Courses />
       </div>
+      
       <div
         data-aos="fade-right"
         className="hover:scale-105 transition-transform duration-500"
       >
         <GalleryHome />
       </div>
+
       <div
         data-aos="fade-right"
         className="hover:scale-105 transition-transform duration-500"
       >
         <Testimonials />
       </div>
-      </>
+
+    </>
   );
 };
 
