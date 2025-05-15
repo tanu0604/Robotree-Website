@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navigation from "./components/navigation/Navigation";
 import Home from "./components/home/Home";
-
+import Service from "./components/services/Service";
 import Footer from "./components/footer/Footer";
-// import Service from './components/services/Service';
 // import Achievement from './components/achievements/Achievement';
 // import Courses from "./components/courses/Courses";
+// import Footer from './components/footer/Footer';
 // import GalleryHome from './components/gallery/GalleryHome';
 // import SchoolGallery from './components/gallery/SchoolGallery';
 // import Testimonials from './components/testimonials/Testimonials';
@@ -22,7 +22,7 @@ const App = () => {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-          
+            <Route path="/services" element={<Service />}></Route>
           </Routes>
         </main>
 
