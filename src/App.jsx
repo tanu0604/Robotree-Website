@@ -7,7 +7,6 @@ import Footer from "./components/footer/Footer";
 // import Service from './components/services/Service';
 // import Achievement from './components/achievements/Achievement';
 // import Courses from "./components/courses/Courses";
-// import Footer from './components/footer/Footer';
 // import GalleryHome from './components/gallery/GalleryHome';
 // import SchoolGallery from './components/gallery/SchoolGallery';
 // import Testimonials from './components/testimonials/Testimonials';
