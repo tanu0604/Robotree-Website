@@ -6,12 +6,12 @@ import { ArrowRight } from "lucide-react";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import About from "../about/About";
-// import Service from "../services/Service";
-// import Achievement from "../achievements/Achievement";
-// import Courses from "../courses/Courses";
-// import GalleryHome from "../gallery/GalleryHome";
-// import Testimonials from "../testimonials/Testimonials";
+import About from "../about/About";
+import Service from "../services/Service";
+import Achievement from "../achievements/Achievement";
+import Courses from "../courses/Courses";
+import GalleryHome from "../gallery/GalleryHome";
+import Testimonials from "../testimonials/Testimonials";
 
 const Home = () => {
   useEffect(() => {
@@ -110,12 +110,42 @@ const Home = () => {
       </section>
 
       {/* Sections below */}
-      {/* <div
+      <div
         data-aos="fade-right"
         className="hover:scale-105 transition-transform duration-500"
       >
         <About />
-      </div>     */}
+      </div>    
+       <div
+        data-aos="fade-right"
+        className="hover:scale-105 transition-transform duration-500"
+      >
+        <Service />
+      </div>
+      <div
+        data-aos="fade-right"
+        className="hover:scale-105 transition-transform duration-500"
+      >
+        <Achievement />
+      </div>
+      <div
+        data-aos="fade-right"
+        className="hover:scale-105 transition-transform duration-500"
+      >
+        <Courses />
+      </div>
+      <div
+        data-aos="fade-right"
+        className="hover:scale-105 transition-transform duration-500"
+      >
+        <GalleryHome />
+      </div>
+      <div
+        data-aos="fade-right"
+        className="hover:scale-105 transition-transform duration-500"
+      >
+        <Testimonials />
+      </div>
       </>
   );
 };
