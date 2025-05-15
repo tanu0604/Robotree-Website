@@ -7,9 +7,8 @@ import Service from "./components/services/Service";
 import Testimonials from "./components/testimonials/Testimonials";
 import Footer from "./components/footer/Footer";
 import Achievements from "./components/achievements/Achievement";
-// import GalleryHome from './components/gallery/GalleryHome';
-// import SchoolGallery from './components/gallery/SchoolGallery';
-
+import SchoolGallery from "./components/gallery/SchoolGallery";
+import GalleryHome from "./components/gallery/GalleryHome";
 const App = () => {
   return (
     <Router>
@@ -25,6 +24,8 @@ const App = () => {
             <Route path="/testimonials" element={<Testimonials/>}></Route>
             <Route path="/courses" element={<Courses/>}></Route>
             <Route path="/achievements" element={<Achievements/>}></Route>
+            <Route path='/gallery' element={<GalleryHome />} />
+            <Route path='/gallery/:schoolId' element={<SchoolGallery/>}></Route>
           </Routes>
         </main>
 
